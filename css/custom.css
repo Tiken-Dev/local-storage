@@ -9,12 +9,12 @@ h1, h2 {
 .borrar-tweet:hover {
     float: right;
     cursor: pointer;
-    color: red;
+    color: #ee6352;
     font-weight: bold;
 }
 
 .error {
-    background-color: red;
+    background-color: #ed4f3a;
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
@@ -22,4 +22,31 @@ h1, h2 {
     max-width: 400px;
     margin: 0 auto;
     color: white;
+    border-radius: .25rem;
+    margin-top: 2rem;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    background-color: #F2F4F6;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 2px solid #EAEAEA;
+    transition: 500ms;
+    color: #7A8990;
+}
+
+textarea:focus {
+    border: 2px solid #34C3F0;
+}
+
+.tareas {
+    background-color: #efe9f4;
+    padding: .75rem 1rem;
+    list-style: none;
+    border-radius: .5rem;
+    color: #080f0f;
 }

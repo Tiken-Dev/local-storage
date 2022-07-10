@@ -15,8 +15,6 @@ function eventListeners() {
     document.addEventListener('DOMContentLoaded', () => {
         tweets = JSON.parse( localStorage.getItem('tweets')) || [];
 
-        console.log(tweets);
-
         crearHTML();
     });
 }
@@ -95,6 +93,7 @@ function crearHTML() {
 
             // Crear el HTML:
             const li = document.createElement('li');
+            li.classList.add('tareas');
 
             // Añadir el texto:
             li.innerText = tweet.tweet; //Añadimos el valor de la llave tweet de nuestro OBJETO.
