@@ -33,7 +33,7 @@ function agregarTweet(e) {
 
     // Validación:
     if(tweet === '') {
-        mostrarError('Un mensaje, no puede ir vacío');
+        mostrarError('Agrega una tarea mamona 🙈');
         return; //Evita que se ejecuten más líneas de código.
     } 
 
